@@ -1,0 +1,11 @@
+# 测试数据与预览
+*.TXT
+_ROI预览/
+F120-*.jpg
+G120-*.jpg
+
+# 开发测试脚本
+_test_*.py
+_debug_*.py
+_probe_*.py
+_observer.py

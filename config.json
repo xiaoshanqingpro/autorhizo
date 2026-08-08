@@ -1,0 +1,39 @@
+{
+  "date": "20260808",
+  "image_date": "0808",
+  "image_dir": "图片",
+  "data_dir": "数据",
+  "data_file": "图片/0808/testauto.TXT",
+  "roi_preview_dir": "_ROI预览",
+  "labels": { "F": "分泌物根", "G": "根际物根" },
+  "winrhizo": {
+    "process_name": "WinRHIZO.exe",
+    "title_contains": "WinRHIZO",
+    "cmd_open_file": 4030,
+    "cmd_new_file": 4025,
+    "cmd_close_file": 4035,
+    "cmd_regions_import": 9489,
+    "cmd_regions_export": 9488,
+    "file_dialog_wait_s": 2.5,
+    "open_wait_s": 4.0,
+    "analysis_wait_s": 6.0,
+    "target_zoom": "1/8.0",
+    "view_ox_off": 144,
+    "view_oy_off": 88
+  },
+  "roi_detect": {
+    "edge_margin_px": 50,
+    "open_kernel": 5,
+    "merge_dilate": 15,
+    "max_components": 4,
+    "comp_area_ratio": 0.02,
+    "bbox_margin_ratio": 0.12,
+    "margin_top": 0.18,
+    "margin_left": 0.12,
+    "margin_right": 0.05,
+    "margin_bottom": 0.08
+  },
+  "image_verify": { "std_threshold": 40 },
+  "signal": { "hotkey_vk": 123 },
+  "analysis_trigger": "auto_on_release"
+}
